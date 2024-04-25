@@ -15,10 +15,10 @@ public class GameOver : MonoBehaviour
 
     private void Update()
     {
-        // Game Over olmadığı durumda R tuşuna basıldığında
+        // Game Over olduğu durumda R tuşuna basıldığında
         if (isOver && Input.GetKeyDown(KeyCode.R))
         {
-            // Oyun yeniden başlat
+            // Oyunu yeniden başlat
             RestartGame();
 	    gameOverText.enabled = false;
         }
